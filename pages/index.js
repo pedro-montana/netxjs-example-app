@@ -6,6 +6,8 @@ import Header from '../components/Header';
 const Crossroad = styled.div`
   display: flex;
   margin: auto;
+  text-align: center;
+  justify-content: center;
 `;
 
 const Page = styled.div`
