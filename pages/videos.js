@@ -52,10 +52,8 @@ const Name = styled.div`
 const VideoSection = () => {
   const [videos, setVideos] = useState();
   const [sortedVideos, setSortedVideos] = useState();
-  const [sort, setSort] = useState();
   const [overlay, setOverlay] = useState(false);
   const [myVideo, setMyVideo] = useState();
-  const [name, setName] = useState('');
   const [active, setActive] = useState(-1);
 
   useEffect(() => {
